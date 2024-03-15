@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Path variables and Parameters</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Users:</h1>
+    <ul>
+        <li><a href="/user/1">User 1</a></li>
+        <li><a href="/user/?id=2">User 2</a></li>
+        <li><a href="/user/3/id=3/premium">User 3</a></li>
+        <li><a href="/user/4/?id=4/premium">User 4</a></li>
+    </ul>
+</div>
+</body>
+</html>
