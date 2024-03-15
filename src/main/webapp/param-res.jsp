@@ -1,0 +1,66 @@
+<jsp:useBean id="prevParam" scope="request" type="java.lang.String"/>
+<%@ page contentType="text/html;charset=UTF-8" %>
+<html lang="en-us">
+<head>
+    <title>Passing Parameters Through Links and Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .button-container {
+            display: flex;
+        }
+
+        .button-container button:first-child {
+            margin-right: 10px;
+        }
+
+        .button-container button:last-child {
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Passing Parameters Through Links and Buttons</h1>
+    <p>Click on the
+        <a href="parameter-servlet?id=111">link</a> to pass "111" as a parameter to the server.
+    </p>
+    <div class="button-container">
+        <form action="parameter-servlet" method="GET">
+            To send "999" as a parameter to the server click this:
+            <button type="submit" name="id" value="999">Send 999</button>
+        </form>
+    </div>
+</div>
+<div class="container">
+    <h3>Submitted parameter: ${prevParam}</h3>
+</div>
+</body>
+</html>

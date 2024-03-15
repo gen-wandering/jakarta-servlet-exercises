@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>AJAX Request</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            function makeAjaxRequest() {
+                $.ajax({
+                    url: 'http://localhost:8080/header-servlet',
+                    type: 'GET',
+                    beforeSend: function (xhr) {
+                        xhr.setRequestHeader('Authentication-Token', '321-abc-323-cbc');
+                        xhr.setRequestHeader('Token-Meta-Inf', 'Custom authentication token from AJAX!');
+                    },
+                    success: function (response) {
+                        console.log('Response:', response);
+                    },
+                    error: function (xhr, status, error) {
+                        console.log('Error:', error);
+                    }
+                });
+            }
+
+            $('#ajaxButton').click(function () {
+                makeAjaxRequest();
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+    <h1>AJAX request with headers to a servlet</h1>
+    <button id="ajaxButton">Send request</button>
+</div>
+</body>
+</html>
