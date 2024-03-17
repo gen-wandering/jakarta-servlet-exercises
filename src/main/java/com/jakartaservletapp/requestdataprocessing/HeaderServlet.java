@@ -21,8 +21,8 @@ public class HeaderServlet extends HttpServlet {
         PrintWriter writer = resp.getWriter();
 
         if (token != null && inf != null) {
-            System.out.println(req.getHeader("Token: " + tokenHeader));
-            System.out.println(req.getHeader("Inf message: " + tokenMetaInfHeader));
+            System.out.println("Token: " + token);
+            System.out.println("Inf message: " + inf);
 
             writer.println("Authentication token and meta-inf received!");
         } else {

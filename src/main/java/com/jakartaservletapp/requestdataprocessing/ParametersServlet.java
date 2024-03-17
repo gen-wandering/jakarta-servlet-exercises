@@ -18,10 +18,8 @@ public class ParametersServlet extends HttpServlet {
 
         System.out.println("Param: " + param);
 
-        // Передаем данные в объект request
         req.setAttribute("prevParam", param);
 
-        // Получаем объект RequestDispatcher
         RequestDispatcher dispatcher = req.getRequestDispatcher("param-res.jsp");
         dispatcher.forward(req, resp);
     }

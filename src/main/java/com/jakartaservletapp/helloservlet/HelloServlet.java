@@ -12,24 +12,11 @@ import java.io.PrintWriter;
 public class HelloServlet extends HttpServlet {
     private String message;
 
-
-    // Invoked when the servlet is created
     @Override
     public void init() {
         System.out.println("Servlet " + this.getClass().getSimpleName() + " is created");
         message = "Hello, World!";
     }
-
-    /*
-     * Method service() is invoked per each request.
-     * This method redirects each request to the method
-     * with corresponding name:
-     *
-     *    HTTP  |  HttpServlet
-     *     GET --> doGet()
-     *    POST --> doPost()
-     *    ...
-     * */
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -41,7 +28,6 @@ public class HelloServlet extends HttpServlet {
         out.println("</body></html>");
     }
 
-    // Invoked when the servlet is deleted
     @Override
     public void destroy() {
         System.out.println("Servlet " + this.getClass().getSimpleName() + " is destroyed");
