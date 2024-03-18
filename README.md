@@ -1,6 +1,4 @@
-# JakartaServletApp
-
-## Tasks
+# Jakarta Servlet Application
 
 * **Hello world servlet (**[`helloservlet`](src/main/java/com/jakartaservletapp/helloservlet)**)**\
   Simple HelloWorld servlet implementation.\

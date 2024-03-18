@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967f992c-2e02-4af5-969d-d28fcdab2051" name="Changes" comment="Add README.md and fixes">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="967f992c-2e02-4af5-969d-d28fcdab2051" name="Changes" comment="Add notes with pictures" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,11 +84,11 @@
       <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notes\servletlifecycle" />
+      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notes" />
       <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources" />
       <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notess" />
-      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notes\servletlifecycle" />
       <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\webapp\collaboration" />
-      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notes\redirects" />
     </key>
   </component>
   <component name="RunManager">
@@ -208,7 +205,7 @@
       <workItem from="1710703972090" duration="59000" />
       <workItem from="1710707641685" duration="1005000" />
       <workItem from="1710743436525" duration="1114000" />
-      <workItem from="1710752652548" duration="148000" />
+      <workItem from="1710752652548" duration="251000" />
     </task>
     <task id="LOCAL-00001" summary="Add HelloServlet, servlets for processing headers and parameters">
       <option name="closed" value="true" />
@@ -274,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710697743718</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add notes with pictures">
+      <option name="closed" value="true" />
+      <created>1710752878918</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710752878918</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +302,7 @@
     <MESSAGE value="Add servlet collaboration" />
     <MESSAGE value="Add ConfigurableServlet" />
     <MESSAGE value="Add README.md and fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README.md and fixes" />
+    <MESSAGE value="Add notes with pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add notes with pictures" />
   </component>
 </project>
