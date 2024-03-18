@@ -9,12 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967f992c-2e02-4af5-969d-d28fcdab2051" name="Changes" comment="Add ConfigurableServlet">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="967f992c-2e02-4af5-969d-d28fcdab2051" name="Changes" comment="Add README.md and fixes">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jakartaservletapp/helloservlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jakartaservletapp/helloservlet/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jakartaservletapp/requestdataprocessing/HeaderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jakartaservletapp/requestdataprocessing/HeaderServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jakartaservletapp/requestdataprocessing/ParametersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jakartaservletapp/requestdataprocessing/ParametersServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +87,11 @@
       <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources" />
+      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notess" />
+      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notes\servletlifecycle" />
       <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\webapp\collaboration" />
       <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notes\redirects" />
-      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notes" />
-      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources" />
-      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager">
@@ -205,7 +202,13 @@
       <workItem from="1710514484873" duration="5642000" />
       <workItem from="1710530016888" duration="6944000" />
       <workItem from="1710617205086" duration="4599000" />
-      <workItem from="1710694539132" duration="3176000" />
+      <workItem from="1710694539132" duration="3737000" />
+      <workItem from="1710698453796" duration="79000" />
+      <workItem from="1710699341902" duration="98000" />
+      <workItem from="1710703972090" duration="59000" />
+      <workItem from="1710707641685" duration="1005000" />
+      <workItem from="1710743436525" duration="1114000" />
+      <workItem from="1710752652548" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="Add HelloServlet, servlets for processing headers and parameters">
       <option name="closed" value="true" />
@@ -263,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710621787921</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add README.md and fixes">
+      <option name="closed" value="true" />
+      <created>1710697743718</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710697743718</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +296,7 @@
     <MESSAGE value="Add DataCollectionServlet and PathVariableServlet" />
     <MESSAGE value="Add servlet collaboration" />
     <MESSAGE value="Add ConfigurableServlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ConfigurableServlet" />
+    <MESSAGE value="Add README.md and fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add README.md and fixes" />
   </component>
 </project>
