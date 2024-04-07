@@ -1,4 +1,4 @@
-package com.jakartaservletapp.cookies;
+package com.jakartaservletapp.requestdataprocessing;
 
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.Cookie;
