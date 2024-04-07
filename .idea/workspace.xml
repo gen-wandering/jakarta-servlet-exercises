@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967f992c-2e02-4af5-969d-d28fcdab2051" name="Changes" comment="Add notes with pictures" />
+    <list default="true" id="967f992c-2e02-4af5-969d-d28fcdab2051" name="Changes" comment="Temp">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jakartaservletapp/cookies/CookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jakartaservletapp/session/SessionServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/notes/parameteravailability/parameter-availability-levels.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,25 +63,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 10.0.26.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Main/Programming/Java/Mentoring/JakartaServletApp/src/main/resources/notes&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Maven.JakartaServletApp [clean].executor": "Run",
+    "Maven.JakartaServletApp [package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 10.0.26.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Main/Programming/Java/Mentoring/JakartaServletApp/src/main/resources/notes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notes" />
@@ -84,11 +91,11 @@
       <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notes\parameteravailability" />
+      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notes\sessionattributes" />
       <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notes\servletlifecycle" />
       <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notes" />
       <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources" />
-      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\resources\notess" />
-      <recent name="D:\Main\Programming\Java\Mentoring\JakartaServletApp\src\main\webapp\collaboration" />
     </key>
   </component>
   <component name="RunManager">
@@ -183,7 +190,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -206,6 +214,8 @@
       <workItem from="1710707641685" duration="1005000" />
       <workItem from="1710743436525" duration="1114000" />
       <workItem from="1710752652548" duration="251000" />
+      <workItem from="1712515618284" duration="58000" />
+      <workItem from="1712515702911" duration="7799000" />
     </task>
     <task id="LOCAL-00001" summary="Add HelloServlet, servlets for processing headers and parameters">
       <option name="closed" value="true" />
