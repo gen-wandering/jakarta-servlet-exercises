@@ -1,4 +1,4 @@
-# Jakarta Servlet Application
+# Jakarta Servlet Exercises
 
 * **Hello world servlet (**[`helloservlet`](src/main/java/com/jakartaservletapp/helloservlet)**)**\
   Simple HelloWorld servlet implementation.\
